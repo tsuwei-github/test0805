@@ -9,6 +9,10 @@ def home():
 def test():
     return "This is test!"
 
+@app.route("/test1")
+def test1():
+    return "This is test1111!"
+
 
 if __name__ == "__main__":
     app.run()
