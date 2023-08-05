@@ -11,9 +11,12 @@ def test():
 
 @app.route("/test1")
 def test1():
-    return "This is test1111!"
+    return "This is test11111111!"
+
+@app.route("/test2")
+def test2():
+    return "This is test2222222222!"
 
 
 if __name__ == "__main__":
     app.run()
-    
